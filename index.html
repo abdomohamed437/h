@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>النوساني للمصنوعات الجلدية</title>
+  <!-- إضافة Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- رقم الهاتف أعلى الصفحة -->
+     <div class="contact-info text-center">
+        <p1>للتواصل: 0123456789</p1>
+    </div>
+
+  <!-- شريط التنقل العلوي -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">النوساني للمصنوعات الجلدية</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">منتجاتنا</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cart">عربة التسوق</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- خلفية ترحيبية -->
+  <header class="hero">
+    <h1 class="text-center text-white">النوساني للمصنوعات الفاخرة</h1>
+    <p class="text-center text-white">جلد طبيعي 100% - حقائب، أحزمة، ومحافظ</p>
+  </header>
+
+  <!-- قسم المنتجات -->
+  <section id="products" class="container my-5">
+    <div class="row">
+      <!-- بطاقة منتج -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="product1.jpg" class="card-img-top product-image" alt="حقيبة جلدية">
+          <div class="card-body">
+            <h5 class="card-title">حقيبة جلدية فاخرة</h5>
+            <p class="card-text">السعر: 250 جنيه</p>
+            <button class="btn btn-primary" onclick="viewProduct('حقيبة جلدية فاخرة', 250, 'product1.jpg')">عرض التفاصيل</button>
+          </div>
+        </div>
+      </div>
+      <!-- كرر الكود للمنتجات الأخرى -->
+    </div>
+  </section>
+
+  <!-- إضافة Bootstrap و jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
